@@ -1,24 +1,16 @@
 import React from "react";
 import "./globals.css";
 import { Metadata } from "next";
-import localFont from "next/font/local";
-// import { Inter } from "next/font/google";
-import { Jockey_One } from "next/font/google";
-import { Bungee_Inline } from "next/font/google";
-import { Rowdies } from "next/font/google";
-import { Rubik_Wet_Paint } from "next/font/google";
-import { Baskervville } from "next/font/google";
 import { Header } from "@/components/header/Header";
 import { Footer } from "@/components/footer/Footer";
 import { Toaster } from "react-hot-toast";
-import { ButtonUpScroll } from "@/components/buttonUpScroll/ButtonUpScroll";
 import MyChat from "@/components/chatGpt/MyChat";
 
 // const jok = Jockey_One({ weight: "400", subsets: ["latin"] });
 // const jok = Bungee_Inline({ weight: "400", subsets: ["latin"] });
 // const jok = Rubik_Wet_Paint({ weight: "400", subsets: ["latin"] });
 // const jok = Baskervville({ weight: "400", subsets: ["latin"] });
-const jok = Rowdies({ weight: "400", subsets: ["latin"] });
+// const jok = Rowdies({ weight: "400", subsets: ["latin"] });
 // const inter = Inter({ subsets: ["latin"] });
 // const jok = localFont({ src: "./Ash.ttf" });
 
